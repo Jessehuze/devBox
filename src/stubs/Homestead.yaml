@@ -10,17 +10,17 @@ keys:
     - ~/.ssh/id_rsa
 
 folders:
-    - map: ~/devBoxCode
+    - map: ~/Projects/neighborly/Code
       to: /home/vagrant/Code
 
 sites:
-    - map: checkmeout.dev
-      to: /home/vagrant/Code/checkmeout-frontend/
-    - map: api.checkmeout.dev
-      to: /home/vagrant/Code/checkmeout-lumen/Public
+#    - map: checkmeout.dev
+#      to: /home/vagrant/Code/checkmeout-frontend/
+    - map: api.neighborly.dev
+      to: /home/vagrant/Code/neighborly-be/Public
 
 databases:
-    - checkmeout
+    - neighborly
 
 # blackfire:
 #     - id: foo
